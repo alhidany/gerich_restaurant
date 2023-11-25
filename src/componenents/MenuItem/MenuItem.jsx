@@ -1,10 +1,24 @@
 import React from 'react';
 import './MenuItem.css';
 
-const MenuItem = () => (
+const MenuItem = ({title,price,tags}) => (
   
-    <div>
-        <h1>MenuItem</h1>
+    <div className='app_menuitem'>
+        <div className='app_menuitem-head'>
+            <div className='app_menuitem-name'>
+                <p className='p__cormorant' style={{color:'#DCCA87'}}>{title}</p>
+            </div>
+            
+            <div className='app__menuitem-dash' />
+
+            <div className='app_menuitem-price'>
+                <p className='p__cormorant'>{price}</p>
+            </div>
+        </div>
+
+        <div className='app_menuitem-sub'>
+            <p className='p__opensans' style={{color:'#AAA'}}>{tags}</p>
+        </div>
     </div>
  
 )
