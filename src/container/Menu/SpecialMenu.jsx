@@ -16,7 +16,7 @@ const SpecialMenu = () => (
 
         <div className='app__speciaclMenu-menu'>
             <div className='app__speciaclMenu-menu_wine flex__center'>
-                <p className='app__speciaclMenu-menu_heading'>Wine & Beer </p>
+                <p className='app__speciaclMenu-menu_heading'>Kind Of Juices </p>
                 <div className='app__speciaclMenu-menu_items'>
                     {data.wines.map((wine, index) => (
                         <MenuItem key={wine.title+index} title={wine.title} price={wine.price} tags={wine.tags}/>
@@ -29,7 +29,7 @@ const SpecialMenu = () => (
             </div>
 
             <div className='app__speciaclMenu-menu_cocktails flex__center'>
-                <p className='app__speciaclMenu-menu_heading'>Wine & Beer </p>
+                <p className='app__speciaclMenu-menu_heading'>Kind Of Foods </p>
                 <div className='app__speciaclMenu-menu_items'>
                     {data.cocktails.map((cocktail, index) => (
                         <MenuItem key={cocktail.title+index} title={cocktail.title} price={cocktail.price}tags={cocktail .tags}/>

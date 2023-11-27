@@ -2,27 +2,27 @@ import images from './images';
 
 const wines = [
   {
-    title: 'Chapel Hill Shiraz',
+    title: 'Orange Juice',
     price: '$56',
     tags: 'AU | Bottle',
   },
   {
-    title: 'Catena Malbee',
+    title: 'Grapefruit Juice',
     price: '$59',
     tags: 'AU | Bottle',
   },
   {
-    title: 'La Vieillw Rose',
+    title: 'Grape Juice',
     price: '$44',
     tags: 'FR | 750 ml',
   },
   {
-    title: 'Rhino Pale Ale',
+    title: 'Cranberry Juice',
     price: '$31',
     tags: 'CA | 750 ml',
   },
   {
-    title: 'Irish Guinness',
+    title: 'Beet Juice. ',
     price: '$26',
     tags: 'IE | 750 ml',
   },

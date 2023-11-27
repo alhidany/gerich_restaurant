@@ -1,10 +1,21 @@
 import React from 'react';
+import {SubHeading} from '../../componenents';
+
 import './Newsletter.css';
 
 const Newsletter = () => (
   
-    <div>
-        <h1>Newsletter</h1>
+    <div className='app__newsletter'>
+         <div className='app__newsletter-heading'>
+            <SubHeading title='Newsletter'/>
+            <h1 className='headtext__cormorant'>Subscribe to our Newsletter</h1>
+            <h1 className='p__opensans'> And never miss latest Update</h1>
+         </div>
+         <div className='app__newsletter-input flex__center'>
+            <input type="email" placeholder='Enter Your Email Address' />
+            <button className='custom__button'>Subscribe</button>
+
+         </div>
     </div>
  
 );
